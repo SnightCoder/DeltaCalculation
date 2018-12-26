@@ -27,6 +27,10 @@ button.inputText{
   font-size: 24px;
   border: none;
 }
+.result{
+  font-weight: bold;
+  color: #1C3544;
+}
 body{
   background-color: #00A9E8;
 }
