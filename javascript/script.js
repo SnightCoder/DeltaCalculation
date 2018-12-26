@@ -43,7 +43,7 @@ function tinhDelta(a,b,c,id){
   else if(d>0){
     D1=checkMinus(-b-Math.sqrt(d));
     D2=checkMinus(-b+Math.sqrt(d));
-    x1="x1 = (-b-√Δ)/(2a) = ("+B+"-√"+d+")/(2 x "+A+") = "+D1+"/"+C+" = "+(-b-Math.sqrt(d))/(2*a);
+    x1="x1 = (-b-√Δ)/(2a) = ("+B+"-√"+d+")/(2 x "+A+") = "+D1+"/"+C+" =<div style="color:red"> "+(-b-Math.sqrt(d))/(2*a)+"</div>";
    x2="x2 = (-b+√Δ)/(2a) = ("+B+"+√"+d+")/(2 x "+A+") = "+D2+"/"+C+" = "+(-b+Math.sqrt(d))/(2*a);
    s+="Do Δ > 0 => Phương trình có 2 nghiệm phân biệt:<br>"+x1+"<br>"+x2;
 }
