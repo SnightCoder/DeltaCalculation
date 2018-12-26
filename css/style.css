@@ -1,0 +1,32 @@
+.inputText{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+button.inputText{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #01C26E;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+}
+.btnRed{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #4986EA;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+}
+body{
+  background-color: #00A9E8;
+}
