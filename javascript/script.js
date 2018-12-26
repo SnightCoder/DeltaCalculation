@@ -38,14 +38,13 @@ function tinhDelta(a,b,c,id){
    if(d==0){
     x1=-(b)/(2*a);
     s1=B+"/(2 x "+A+") = "+B+"/"+C;
-  s+="Do Δ = 0 => Phương trình có 2 nghiệm kép:<br>x1 = x2 = "+"-b/2a = "+s1+" = "+x1;
+  s+="Do Δ = 0 => Phương trình có 2 nghiệm kép:<br>x1 = x2 = "+"-b/2a = "+s1+" = <span class=\"result\">"+x1+"</span>";
   }
   else if(d>0){
     D1=checkMinus(-b-Math.sqrt(d));
     D2=checkMinus(-b+Math.sqrt(d));
-    //x1="x1 = (-b-√Δ)/(2a) = ("+B+"-√"+d+")/(2 x "+A+") = "+D1+"/"+C+" =<div style=\"color:red\"> "+(-b-Math.sqrt(d))/(2*a)+"</div>";
-   x1="jj"
-    x2="x2 = (-b+√Δ)/(2a) = ("+B+"+√"+d+")/(2 x "+A+") = "+D2+"/"+C+" = "+(-b+Math.sqrt(d))/(2*a);
+    x1="x1 = (-b-√Δ)/(2a) = ("+B+"-√"+d+")/(2 x "+A+") = "+D1+"/"+C+" =<span class=\"result\"> "+(-b-Math.sqrt(d))/(2*a)+"</span>";
+    x2="x2 = (-b+√Δ)/(2a) = ("+B+"+√"+d+")/(2 x "+A+") = "+D2+"/"+C+" =<span class=\"result\">  "+(-b+Math.sqrt(d))/(2*a)+"</span>";
    s+="Do Δ > 0 => Phương trình có 2 nghiệm phân biệt:<br>"+x1+"<br>"+x2;
 }
 }
